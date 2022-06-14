@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "Problem 1 Valid",
+      "setup": "javac RollDice.java",
+      "run": "java RollDice 8d6",
+      "input": "",
+      "output": "\\d+",
+      "comparison": "regex",
+      "timeout": 10,
+      "points": 15
+    },
+    {
+      "name": "Problem 1 Invalid",
+      "setup": "javac RollDice.java",
+      "run": "java RollDice nd6",
+      "input": "",
+      "output": "Invalid input",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 15
+    }
+  ]
+}
