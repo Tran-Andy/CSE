@@ -30,7 +30,6 @@ public class SortNumbers
             }
         }
         Arrays.sort(Nums);
-
         for(int i = Size-maxNums;i<Size;i++)
         {
             writer.write(String.valueOf(Nums[i]));
@@ -43,4 +42,5 @@ public class SortNumbers
         System.out.print("\nPlease Check The Out.txt File!");
         writer.close();
     }
+
 }

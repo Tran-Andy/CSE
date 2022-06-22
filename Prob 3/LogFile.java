@@ -16,17 +16,15 @@ public class LogFile {
         //Enter Message
         System.out.println("Message: ");
         String Message = arg.nextLine();
-
         //Assigns the String Date to CSV and Splits it in order to correctly output.
             String CSV = LocalDateTime.now().toString();
-            String CSV2 = CSV.split("[|T]+")[0];
+            String CSV2 = CSV.split("[T]+")[0];
             String File = Username + "-" + CSV2 + ".log";
             FileWriter fw = new FileWriter(File, true);
             PrintWriter pw = new PrintWriter(fw);
             //Print In Log
             pw.println(Username + "," + Message + "," + CSV);
             pw.close();
-
             System.out.println("Please Check The Current Directory!");
 
 
