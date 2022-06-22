@@ -12,7 +12,7 @@ public class SortNumbers
         BufferedWriter writer = new BufferedWriter(new FileWriter("out.txt"));
         File FR = new File(FileName);
         Scanner scan = new Scanner(FR);
-        int Size = 50;
+        int Size = 100;
         int maxNums = 0;
         int invalidEntries = 0;
         int random = -1;
