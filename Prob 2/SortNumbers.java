@@ -29,16 +29,10 @@ public class SortNumbers
                 invalidEntries++;
             }
         }
-        System.out.print("Numbers: ");
-        for(int i = 0; i < maxNums;i++)
-        {
-            System.out.printf("%d ",Nums[i]);
-        }
         Arrays.sort(Nums);
-        System.out.print("\nSorted Numbers: " );
+
         for(int i = Size-maxNums;i<Size;i++)
         {
-            System.out.printf("%d ",Nums[i]);
             writer.write(String.valueOf(Nums[i]));
             writer.newLine();
         }
