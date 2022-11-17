@@ -1,0 +1,21 @@
+|twocomplementseven
+w => Decoder0.IN0
+x => Decoder0.IN1
+y => Decoder0.IN2
+z => Decoder0.IN3
+a << <VCC>
+b << <VCC>
+c << <VCC>
+d << <VCC>
+e << <VCC>
+f << <VCC>
+g << WideOr0.DB_MAX_OUTPUT_PORT_TYPE
+a2 << WideOr1.DB_MAX_OUTPUT_PORT_TYPE
+b2 << WideOr2.DB_MAX_OUTPUT_PORT_TYPE
+c2 << c2.DB_MAX_OUTPUT_PORT_TYPE
+d2 << WideOr3.DB_MAX_OUTPUT_PORT_TYPE
+e2 << WideOr4.DB_MAX_OUTPUT_PORT_TYPE
+f2 << WideOr5.DB_MAX_OUTPUT_PORT_TYPE
+g2 << WideOr6.DB_MAX_OUTPUT_PORT_TYPE
+
+
